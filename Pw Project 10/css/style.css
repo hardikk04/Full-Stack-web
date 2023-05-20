@@ -1,0 +1,411 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Manrope";
+}
+
+header
+{
+    height: 120vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Photos/mainBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+/* Home page css */
+
+li
+{
+    list-style: none;
+}
+
+.nav-ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-ul li a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0px;
+}
+.nav-ul
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+nav img
+{
+    height: 40px;
+    width: auto;
+}
+
+hr
+{
+    margin-top: 10px;
+    width: 1300px;
+    /* margin: auto; */
+    margin-left: 125px;
+}
+
+.primary-color
+{
+    color: white;
+}
+
+.secondry-color
+{
+    color: rgb(255, 255, 255);
+}
+
+.home-containt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home-containt h1
+{
+    font-size: 75px;
+    font-weight: 600px;
+}
+
+.home-containt
+{
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+.home-btn
+{
+    margin-top: 30px;
+    background: rgb(102, 99, 233);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 200px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.home-btn:hover
+{
+    background-color: black;
+    text-decoration: underline;
+}
+
+.logo-container
+{
+    height: 150px;
+    background-color: white;
+    width: 80vw;
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    top: -80px;
+    left: 140px;
+}
+
+
+.services-heading 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+.services-heading h1
+{
+    font-size: 60px;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.flat img
+{
+    height: 400px;
+    width: 370px;
+    border-radius: 20px;
+}
+
+.flat-prize
+{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 20px;
+    top: -60px;
+    left: 35px;
+}
+
+.flat-prize button
+{
+    background: rgb(102, 99, 233);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.flat-prize button:hover
+{
+   background-color: black;
+   text-decoration: underline;
+}
+
+.secondry-p
+{
+    color: rgb(102, 99, 232);
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.services-flat
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 105px;
+}
+
+.flat-bg-img
+{
+    width: 600px;
+    height: 50%;
+}
+
+.flat-main-img
+{
+    height: 400px;
+    width: 390px;
+    border-radius: 40px;
+    position: relative;
+    right: -138px;
+    top: -505px;
+}
+
+.flat-details-up 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px ;
+}
+
+.flat-details-right
+{
+    margin-top: -450px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.flat-details-up button
+{
+    background: rgb(102, 99, 233);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.flat-details-up button:hover
+{
+    background-color: black;
+    text-decoration: underline;
+}
+
+.flat-details-right h1
+{
+    font-size: 60px;
+}
+
+
+.flat-bg-down
+{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 415px;
+}
+
+.flat-main-down
+{
+    height: 400px;
+    width: 390px;
+    border-radius: 40px;
+    position: relative;
+    top: -110px;
+    left: -137px;
+}
+
+.flat-details-down
+{
+    display: flex;
+    margin-top: -310px;
+}
+
+.flat-details-left-down h1
+{
+    font-size: 60px; 
+}
+
+.flat-details-left-down
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+}
+
+.flat-details-down button
+{
+    background: rgb(102, 99, 233);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.flat-details-down button:hover
+{
+    background-color: black;
+    text-decoration: underline;
+}
+
+.subscribe
+{
+    width: 80vw;
+    height: 400px;
+    background: rgb(102, 99, 233);
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subcribe-containt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.subcribe-containt h1
+{
+    font-size: 60px;
+    color: white;
+}
+
+.subcribe-containt p
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font: 20px;
+}
+
+.subcribe-containt button
+{
+    background-color: white;
+    color: rgb(102, 99, 233);
+    font-size: 20px;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.subcribe-containt button:hover
+{
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+
+footer
+{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.footer-left
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 150px;
+}
+
+.footer-right
+{
+    display: flex;
+    gap: 100px;
+    margin-right: 130px;
+}
+
+.footer-same
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-same li
+{
+    list-style: none;
+}
+
+.footer-same li a
+{
+    text-decoration: none;   
+}
+
+.footer-same li a:hover
+{
+    text-decoration: underline;
+    color: grey;   
+}
+
+.footer-head
+{
+    font-size: 20px;
+    color: black;
+}
