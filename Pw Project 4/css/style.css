@@ -1,0 +1,121 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body
+{
+    margin-top: 40px;
+}
+
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #808080;
+}
+
+button
+{
+    background-color: #5955b3;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover
+{
+    color: black;
+    
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo img
+{
+    margin-left: 90px;
+}
+
+.nav 
+{
+    display: flex;
+    justify-content: start;
+    margin-right: 580px;
+}
+
+.nav-btn
+{
+    display: flex;
+    justify-content: start;
+    margin-right: 80px;
+}
+
+.main-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.left-main h1
+{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.left-main p
+{
+    margin-bottom: 40px;
+    margin-left: 4px;
+}
+
+.left-main span
+{
+    color: #5955b3;
+}
+
+.left-main button
+{
+    margin-left: 0px;
+}
+
+.main-img 
+{
+    display: flex;
+    justify-content: end;
+}
+
+.main-img img
+{
+    margin-top: 30px;
+    height: auto;
+    width: 80%;
+}

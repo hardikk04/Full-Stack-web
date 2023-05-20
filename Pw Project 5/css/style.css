@@ -1,0 +1,144 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body
+{
+    background-image:url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.v-line
+{
+    border-left: 1px solid white;
+    height: 50px;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #808080;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px;
+}
+
+ul
+{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.nav-btn
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn button
+{
+    background-color: #b90ec5;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    margin-right: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover
+{
+    color: black;
+}
+
+.nav-logo img
+{
+    height: auto;
+    width: 100px;  
+}
+
+.nav-menu
+{
+    margin-top: 10px;
+}
+
+.hero-section
+{
+    display: flex;
+    flex-direction: column;
+    height: 712px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+.hero-section h1
+{
+    font-size: 80px;
+    text-align: center;
+}
+
+.hero-section p
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-btn button
+{
+    background-color: #b90ec5;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin-right: 60px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.hero-btn button:hover
+{
+    color: black;
+}
+
+.arg
+{
+    margin-bottom: 60px;
+}
